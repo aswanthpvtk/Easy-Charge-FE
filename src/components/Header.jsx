@@ -55,7 +55,7 @@ function Header() {
                         <Tab sx={{ color: 'white' }} LinkComponent={Link} to="/stations" label="Stations" />
                              {!isAdminLoggedIn && !isUserLoggedIn && 
                              <>
-                             <Tab LinkComponent={Link} to="/home"  label="Home" />
+                             {/* <Tab LinkComponent={Link} to="/home"  label="Home" /> */}
 
                              <Tab LinkComponent={Link} to="/admin" label="Admin Login" />
                            <Tab LinkComponent={Link} to="/auth"  label="UserLogin" />
