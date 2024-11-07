@@ -36,7 +36,7 @@ function Header() {
                 <Toolbar>
                     <Box width={"20%"}>
                         {/* <IconButton> */}
-                        <EvStationIcon LinkComponent={Link} to="" /> <span style={{fontFamily:"verdana"}}>Easy Charging</span>
+                        <EvStationIcon LinkComponent={Link} to="" /> 
                         {/* </IconButton> */}
                         
                     </Box>
