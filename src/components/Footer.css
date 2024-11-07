@@ -1,0 +1,65 @@
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px 5px; /* Further reduced padding */
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 5px; /* Further reduced margin */
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 120px; /* Further reduced minimum width */
+    margin: 2px; /* Further reduced margin */
+  }
+  
+  .footer-section h4 {
+    color: #ffc107; /* Yellow color for headings */
+    margin-bottom: 5px; /* Further reduced margin */
+    font-size: 14px; /* Reduced heading font size */
+  }
+  
+  .footer-section a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 2px 0; /* Further reduced margin */
+    display: block; /* Ensures links stack vertically */
+    font-size: 12px; /* Reduced link font size */
+    transition: color 0.3s;
+  }
+  
+  .footer-section a:hover {
+    color: #ffc107; /* Change to yellow on hover */
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons a {
+    color: #ffffff;
+    font-size: 18px; /* Further reduced icon size */
+    margin: 0 3px; /* Further reduced margin */
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #ffc107; /* Change to yellow on hover */
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #555555;
+    padding-top: 3px; /* Further reduced padding */
+  }
+  
+  .footer-bottom p {
+    font-size: 10px; /* Further reduced font size */
+    color: #adb5bd; /* Lighter gray color */
+  }
+  

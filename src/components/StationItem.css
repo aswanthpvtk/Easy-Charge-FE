@@ -1,0 +1,12 @@
+/* StationItem.css */
+
+/* Apply a smooth scale and shadow effect on hover */
+.card {
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+/* Scale and add shadow on hover */
+.card:hover {
+    transform: scale(1.05); /* Increase the size slightly on hover */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect */
+}
